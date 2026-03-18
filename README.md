@@ -1,3 +1,9 @@
+![Linux](https://img.shields.io/badge/OS-Debian%2013-A81D33?style=flat&logo=debian&logoColor=white)
+![Docker](https://img.shields.io/badge/Container-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Firewall](https://img.shields.io/badge/Security-UFW-orange?style=flat)
+![Pihole](https://img.shields.io/badge/Service-Pi--hole-96060C?style=flat&logo=pi-hole&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
 # Project: Hardened DNS Gateway & Network Sinkhole
 Objective: Implementing proactive network defense and host-level hardening on a repurposed enterprise grade server.
 

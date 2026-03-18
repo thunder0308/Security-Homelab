@@ -1,0 +1,11 @@
+# SSH Hardening Snippet
+# Path: /etc/ssh/sshd_config
+
+# Disable root login to prevent brute-force attacks on the administrative account
+PermitRootLogin no
+
+# Enforce SSH Protocol 2 for improved cryptographic security
+Protocol 2
+
+# Ensure only authorized users with sudo access can manage the system
+AllowUsers pranshu

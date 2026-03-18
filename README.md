@@ -7,6 +7,13 @@
 # Project: Hardened DNS Gateway & Network Sinkhole
 Objective: Implementing proactive network defense and host-level hardening on a repurposed enterprise grade server.
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Technical Stack](#technical-stack)
+- [Security Hardening](#security-hardening)
+- [Incident Response](#incident-response)
+- [Visual Evidence](#visual-evidence)
+
 ## Project Overview
 This project involved converting a Dell Latitude E5440 into a dedicated security appliance running Debian 13. The goal was to centralize network traffic through a hardened "chokepoint" to mitigate telemetry, block malicious domains, and reduce the overall digital attack surface of a home network.
 

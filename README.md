@@ -9,10 +9,10 @@ Objective: Implementing proactive network defense and host-level hardening on a 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Technical Stack](#technical-stack)
-- [Security Hardening](#security-hardening)
-- [Incident Response](#incident-response)
-- [Visual Evidence](#visual-evidence)
+- [Technical Stack](#Technical-Stack-&-Skills)
+- [Security Hardening](#Security-Implementations)
+- [Incident Response](#Incident-Response-&-Troubleshooting)
+- [Result](#Final-Results)
 
 ## Project Overview
 This project involved converting a Dell Latitude E5440 into a dedicated security appliance running Debian 13. The goal was to centralize network traffic through a hardened "chokepoint" to mitigate telemetry, block malicious domains, and reduce the overall digital attack surface of a home network.
@@ -26,6 +26,7 @@ This project involved converting a Dell Latitude E5440 into a dedicated security
 | **Security** | UFW, OpenSSH | Firewall Management, Secure Remote Access |
 | **Containerization** | Docker | Service Isolation, Image Management |
 | **DNS Defense** | Pi-hole | DNS Sinkholing, Telemetry Mitigation, C2 Blocking |
+
 ## Security Implementations
 ### 1. Host Hardening (SSH)
 

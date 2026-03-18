@@ -57,6 +57,18 @@ Bridge Isolation: Identified that Pi-hole was only listening on the Docker inter
 
 Remediation: Updated listening behavior to "Permit all origins" and synchronized UFW rules.
 
+## Project Results & Evidence
+
+### System Resource Monitoring
+To ensure the gateway remained lightweight and efficient for legacy hardware, resource usage was monitored using `htop`. The system maintains a minimal footprint while providing network-wide filtering.
+
+![System Vitals Screenshot](./images/audit.jpg)
+
+### DNS Filtering Dashboard
+The Pi-hole dashboard confirms that DNS-level sinkholing is active, successfully blocking telemetry and malicious ad-domains across all connected devices.
+
+![Pi-hole Filtering Dashboard](./images/pi-dashboard.png)
+
 ## Final Results
 Privacy: Successfully blocked thousands of background telemetry requests from OS and smart-device services.
 
